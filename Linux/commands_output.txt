@@ -1,0 +1,65 @@
+=== 1. HOME DIRECTORY CONTENTS (ls -la ~) ===
+total 112
+drwxr-x--- 15 naman_kumar naman_kumar  4096 Nov 25 08:27 .
+drwxr-xr-x  3 root        root         4096 Oct  1 14:32 ..
+-rw-------  1 naman_kumar naman_kumar 13552 Nov 11 04:01 .bash_history
+-rw-r--r--  1 naman_kumar naman_kumar   220 Oct  1 14:32 .bash_logout
+-rw-r--r--  1 naman_kumar naman_kumar  3771 Oct  1 14:32 .bashrc
+drwxr-x---  4 naman_kumar naman_kumar  4096 Oct  1 14:33 .cache
+drwxr-x---  3 naman_kumar naman_kumar  4096 Oct  1 14:33 .config
+-rw-r--r--  1 naman_kumar naman_kumar    88 Nov 10 20:54 .gitconfig
+-rw-r--r--  1 naman_kumar naman_kumar    34 Nov 25 08:27 .gitignore
+-rw-------  1 naman_kumar naman_kumar    20 Nov 10 22:29 .lesshst
+drwx------  3 naman_kumar naman_kumar  4096 Oct 30 20:00 .local
+-rw-r--r--  1 naman_kumar naman_kumar     0 Nov 25 07:58 .motd_shown
+-rw-r--r--  1 naman_kumar naman_kumar   807 Oct  1 14:32 .profile
+-rw-------  1 naman_kumar naman_kumar 11139 Oct 30 14:16 .viminfo
+drwxr-xr-x  2 naman_kumar naman_kumar  4096 Nov 25 08:27 API
+drwxr-xr-x  2 naman_kumar naman_kumar  4096 Nov 25 08:29 Linux
+drwxr-xr-x  2 naman_kumar naman_kumar  4096 Nov 25 08:27 Portfolio
+drwxr-xr-x  2 naman_kumar naman_kumar  4096 Nov 25 08:27 Screenshots
+drwxr-xr-x  2 naman_kumar naman_kumar  4096 Nov 25 08:27 ShellScripts
+drwxr-xr-x  3 naman_kumar naman_kumar  4096 Nov 10 20:55 cse103_lab
+drwxr-xr-x  2 naman_kumar naman_kumar  4096 Oct  7 09:26 documents
+drwxr-xr-x  2 naman_kumar naman_kumar  4096 Nov 10 19:47 linux
+drwxr-xr-x  2 naman_kumar naman_kumar  4096 Nov 10 11:45 linux_practice
+drwxr-xr-x  2 naman_kumar naman_kumar  4096 Oct 30 14:04 namankr
+
+=== 2. TOP 10 RUNNING PROCESSES (ps aux | head -10) ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.4  24480 15716 ?        Ss   08:04   0:02 /sbin/init
+root           2  0.0  0.0   3820  2528 hvc0     Sl+  08:04   0:00 /init
+root           3  0.0  0.0   3680  2220 hvc0     S+   08:04   0:00 init-watcher
+root           7  0.0  0.0   3820  2292 hvc0     Sl+  08:04   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          47  0.0  0.7  58844 27172 ?        S<s  08:04   0:00 /usr/lib/systemd/systemd-journald
+systemd+      82  0.0  0.3  22432 14448 ?        Ss   08:04   0:00 /usr/lib/systemd/systemd-resolved
+root          92  0.1  0.3  34720 12012 ?        Ss   08:04   0:02 /usr/lib/systemd/systemd-udevd
+root         152  0.0  0.0   2888  2012 ?        Ss   08:04   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         153  0.0  0.0   4472  3116 ?        Ss   08:04   0:00 /usr/sbin/cron -f -P
+
+=== 3. DISK USAGE (df -h) ===
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         476G  133G  343G  28% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            1.9G   48K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  3.4M  1.9G   1% /init
+none            1.9G  516K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   80K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   80K  1.9G   1% /mnt/wslg/doc
+C:\             476G  133G  343G  28% /mnt/c
+tmpfs           1.9G     0  1.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           377M   12K  377M   1% /run/user/1000
+
+=== 4. MEMORY USAGE (free -h) ===
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       415Mi       3.1Gi       4.1Mi       203Mi       3.3Gi
+Swap:          1.0Gi          0B       1.0Gi
