@@ -1,12 +1,12 @@
 # B.Tech CSE Personalised Learning & Career Roadmap
 
-**Name:** Naman Kumar | **Program:** B.Tech Computer Science & Engineering (Batch 2026–2030)
+**Name:** Naman Kumar | **University:** K.R. Mangalam University, Gurugram | **Program:** B.Tech CSE (AI & ML), Batch 2026–2030
 
 ---
 
 ## Semester 1 (Current): Systems, Scripting & Version Control Foundations
 - **Skills Learned:** Python fundamentals (functions, recursion, control flow), binary number systems, Linux workstation diagnostics (`lscpu`, `lsblk`, `ps`, `df`, `free`), Bash shell scripting, and REST API querying with `curl` and `jq`.
-- **Tools Used:** Ubuntu Linux Terminal, VS Code, Git, GitHub, and GitHub Pages.
+- **Tools Used:** Ubuntu Linux Terminal (WSL), VS Code, Git, GitHub, and GitHub Pages.
 - **Capstone Milestone:** Built and deployed **DeveloperPortfolio**, combining hardware documentation, automated backup and reporting scripts, REST API extraction, and a live static portfolio site.
 
 ## Semester 2: Data Structures, Databases & Web Foundations
