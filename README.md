@@ -16,11 +16,6 @@ Personal developer portfolio and systems engineering capstone by **Naman Kumar**
 
 ## Verification Screenshots
 
-### Automated Backup Script Execution
-![Backup Script Demo](Screenshots/backup_demo.png)
-
-### GitHub Profile
-![GitHub Profile](Screenshots/github_profile.png)
-
-### LinkedIn Profile
-![LinkedIn Profile](Screenshots/linkedin_profile.png)
+- **Automated Backup Script Execution:** [View Backup Script Screenshot](Screenshots/backup_demo.png)
+- **GitHub Profile:** [View GitHub Profile Screenshot](Screenshots/github_profile.png)
+- **LinkedIn Profile:** [View LinkedIn Profile Screenshot](Screenshots/linkedin_profile.png)
